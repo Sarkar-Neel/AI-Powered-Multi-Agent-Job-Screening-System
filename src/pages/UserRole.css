@@ -1,0 +1,35 @@
+/* UserRole.css */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* full screen height */
+    background-color: #f4f4f4;
+  }
+  
+  .role-card {
+    width: 350px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* On hover: grow slightly + shadow */
+  .role-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  /* Make recruiter and candidate cards different */
+  .recruiter-card {
+    background-color: #e6f7ff;
+  }
+  
+  .candidate-card {
+    background-color: #fff0f5;
+  }
+  
